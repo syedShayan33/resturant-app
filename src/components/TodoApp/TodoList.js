@@ -62,7 +62,8 @@ const TodoList = () => {
                             value={inputData} onChange={(event) => setInputData(event.target.value)} />
                         <i className="fa fa-plus add-btn" onClick={addItem}></i>
                     </div>
-                    {/* Show Our Items */}
+                    {/* Show Our Todo item */}
+
                     <div className='showItems'>
                         {
                             items.map((curElem) => {
